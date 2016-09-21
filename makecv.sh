@@ -8,4 +8,3 @@ bibtex cv5
 #bibtex cv6
 pdflatex cv.tex
 pdflatex cv.tex
-#scp cv.pdf bcaffo@www.biostat.jhsph.edu:~bcaffo/public_html/downloads/cv.myVersion.pdf

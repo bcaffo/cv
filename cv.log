@@ -1,0 +1,113 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.25)  21 SEP 2016 14:33
+entering extended mode
+**cv.tex
+(c:\Users\bcaffo\sandboxes\cv\cv.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\graphics\graphicx
+.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\graphics\keyval.s
+ty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\graphics\graphics
+.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\graphics\trig.sty
+"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\00miktex\graphics
+.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\pdftex-def\pdftex
+.def"
+File: pdftex.def 2010/09/14 v0.05b Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\geometry\geometry
+.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\generic\oberdiek\ifpdf.
+sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\generic\oberdiek\ifvtex
+.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\generic\ifxetex\ifxetex
+.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\geometry\geometry
+.cfg"))
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\tools\enumerate.s
+ty"
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks16
+)
+("c:\Users\bcaffo\Google Drive\Dropbox\local\MiKTEX\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks17
+\float@box=\box26
+\@float@everytoks=\toks18
+\@floatcapt=\box27
+)
+
+! LaTeX Error: File `bibtopic.sty' not found.
+
+Type X to quit or <RETUR

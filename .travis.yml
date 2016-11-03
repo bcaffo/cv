@@ -11,7 +11,7 @@ script:
 #- bibtex cv5
 #- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
 #- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
-- ./makecvTravis.sh
+- /bin/bash makecvTravis.sh
 #deploy:
 #  provider: releases
 #  api_key:

@@ -16,7 +16,7 @@ pdflatex cv.tex
 ##set up git
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
-git remote add origin-pages https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git
+git remote add origin-pages https://${GH_TOKEN}@github.com/cv.git
 
 ##commit and push 
 ## have to checkout first since travis links to a specific checkout id

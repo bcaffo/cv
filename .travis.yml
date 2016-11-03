@@ -3,20 +3,21 @@ dist: trusty
 before_install:
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-bibtex-extra
 script:
-- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
-- bibtex cv1
-- bibtex cv2
-- bibtex cv3
-- bibtex cv4
-- bibtex cv5
-- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
-- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
-deploy:
-  provider: releases
+#- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
+#- bibtex cv1
+#- bibtex cv2
+#- bibtex cv3
+#- bibtex cv4
+#- bibtex cv5
+#- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
+#- pdflatex -interaction=nonstopmode -halt-on-error cv.tex
+- ./makecv.sh
+#deploy:
+#  provider: releases
 #  api_key:
 #    secure: [YOUR KEY]
-  file:
-  - cv.pdf
+#  file:
+#  - cv.pdf
 #  skip_cleanup: true
 #  on:
 #    tags: true

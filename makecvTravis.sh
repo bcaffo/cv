@@ -19,5 +19,7 @@ git config --global user.name "Travis CI"
 git remote add origin-pages https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git
 
 ##commit and push 
+## have to checkout first since travis links to a specific checkout id
+git checkout master
 git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 git push origin master

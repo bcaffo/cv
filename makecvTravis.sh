@@ -14,9 +14,9 @@ pdflatex cv.tex
 pdflatex cv.tex
 
 ##set up git
-git config --global user.email "travis@travis-ci.org"
-git config --global user.name "Travis CI"
-git remote add origin https://${GH_TOKEN}@github.com/cv.git
+##git config --global user.email "travis@travis-ci.org"
+##git config --global user.name "Travis CI"
+git remote add origin https://${GH_TOKEN}@github.com/cv.git > /dev/null
 
 ##commit and push 
 ## have to checkout first since travis links to a specific checkout id

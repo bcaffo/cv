@@ -16,11 +16,11 @@ pdflatex cv.tex
 ##set up git
 ##git config --global user.email "travis@travis-ci.org"
 ##git config --global user.name "Travis CI"
-git remote add origin https://${GH_TOKEN}@github.com/cv.git > /dev/null
+##git remote add origin https://${GH_TOKEN}@github.com/cv.git > /dev/null
 
 ##commit and push 
 ## have to checkout first since travis links to a specific checkout id
-git checkout master
-git add cv.pdf
-git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
-git push origin master
+##git checkout master
+##git add cv.pdf
+##git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+##git push origin master

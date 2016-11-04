@@ -12,7 +12,7 @@ bibtex cv5
 #bibtex cv6
 pdflatex cv.tex
 pdflatex cv.tex
-
+ 
 ##set up git
 ##git config --global user.email "travis@travis-ci.org"
 ##git config --global user.name "Travis CI"

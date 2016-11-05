@@ -5,6 +5,7 @@ before_install:
   texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-bibtex-extra
 script:
 - "/bin/bash makecvTravis.sh"
+- git commit -a "Travis build: $TRAVIS_BUILD_NUMBER"
 deploy:
   provider: releases
   api_key:

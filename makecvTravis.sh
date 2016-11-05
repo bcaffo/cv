@@ -22,5 +22,5 @@ pdflatex cv.tex
 ## have to checkout first since travis links to a specific checkout id
 ##git checkout master
 ##git add cv.pdf
-##git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
+git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 ##git push origin master

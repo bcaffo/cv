@@ -5,11 +5,13 @@ before_install:
   texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-bibtex-extra
 script:
 - "/bin/bash makecvTravis.sh"
-- git commit -a "Travis build: $TRAVIS_BUILD_NUMBER"
 deploy:
   provider: releases
   api_key:
     secure: cMp+ycfqhLE2t0kcUCgucyXLoZpJVAJ3NtwiNTuN8bx01JF51niipeyR5OVxHptzwd9S5RZMk7cq/IoBsRT5x7IQi8WPiaisG4Sk4QTNVhJVFMpbxissp1M9Bo7uiWmtzKCOnhq1AM6blTJIly8iG+xg8ZNXzss423STl1Pf5hiqAdjJNJ6XY+TdC3lg1024k1Tgb+vlGeN36uB0u61HFWe4dAW9X7jkDjdzUmUezrd5BtZH9I+8cLQEirbPHaVvgjWfZHF0qEQ5/M6SMB96DyTgaOngZPafGn7WsqHcrho2owO61OOBoPXeYXEmb8C/S/9m1bVolWwWs9OhXGNtV1ku/4ujegb/FGfrmT70pYIiNQudskwc7hwZrAH5+Uuw7Eb5XY/addiDIVm3cTHYwrJLxXGP//NK3bl04i1lAhMeChVAdkue7wBUkONVtJa/OmbaAZhjL8Bz5T3FW4cr5C/c1YcA0xu130ftjUGYwooPfZlR8zbqTa1jvUhUg09QNqte224xnWrUKV2LFCPxhs7B6vrXtodungvKKOgEKViW1qVUENN+xWDycA+mJlYOkIa2ksA881aHror+6K2f+A/+Kt5YslYMy4DnFIcrca1KekyvEXQ7p5gIkePI9h0Z/ukLg+/zg0jNZ1aB9YmNgEObZCIIDfEInUxTNDzRivk=
   file: cv.pdf
+  skip_cleanup: true/
   on:
     repo: bcaffo/cv
+    tags: true
+    

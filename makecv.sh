@@ -9,5 +9,5 @@ bibtex cv5
 #bibtex cv6
 pdflatex cv.tex
 pdflatex cv.tex
-git commit -a -m "auto build pdf"
-git push origin master
+#git commit -a -m "auto build pdf"
+#git push origin master

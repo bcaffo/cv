@@ -12,3 +12,4 @@ deploy:
   file: cv.pdf
   on:
     repo: bcaffo/cv
+    all_branches: true

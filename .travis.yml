@@ -13,3 +13,5 @@ deploy:
   on:
     repo: bcaffo/cv
     all_branches: true
+    tags: true
+	

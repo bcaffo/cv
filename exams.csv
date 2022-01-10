@@ -1,163 +1,146 @@
-Year, Name, Department, Exam
-2021, Eric Bridgeford, Biostat, prelim
-2021, Olivia Leavitt, BME, prelim
-2021, Alessandro Orlando, Epi, prelim
-2021, Sri Sankar, BME, prelim
-2020, Huan Chen, Biostat, prelim
-2020, Sayan Ghosal, EE, prelim  
-2020, Hamed Honari, EE, prelim
-2020, Bohao Tang, Biostat, prelim
-2020, Vy Tran, EHE, prelim,
-2020, Guoqing Wang, Biostat, prelim
-2020, Jennine Wellner, GTPCI, prelim
-2019, Vikram Chandrashekhar, BME, prelim 
-2019, Lacey Etzkorn, Biostat, prelim
-2018, Joshua Cappe, AMS, prelim
-2018, Celia Carp, PFRH, prelim
-2018, Bingkai Wang, Biostat, prelim
-2018, Zeyi Wang, Biostat, prelim
-2017, Runze Tang, AMS, prelim
-2016, Eugenie Shieh, GTPCI, prelim
-2015, John Muschelli, Biostat, prelim
-2014, Hiwot Hiruy, GTPCI, prelim
-2014, Shaojie Chen, Biostat, prelim
-2014, Aaron Fisher, Biostat, prelim
-2014, Huitong Qiu, Biostat, prelim 
-2013, Fang Han, Biostat, prelim
-2013, Sarah Khasawinah, Biostat, prelim
-2013, Gwenyth Lee, IH, prelim
-2013, Jenna Riis, PFRP, prelim
-2013, Chen Yue, Biostat, prelim
-2012, Andrew Pike, MMI, prelim
-2012, Tom Prior, Biostat, prelim
-2012, Haochang Shou, Biostat, prelim
-2012, Zhenke Wu, Biostat, prelim
-2012, Juemin Yang, Biostat, prelim
-2011, Melania Bembea, GTPCI, prelim
-2011, Yifang Chuang, MH, prelim 
-2011, Jenna Krall, Biostat, prelim
-2011, Shanshn Li, Biostat, prelim
-2011, Saman Nazarian, Epi, prelim
-2011, Adrienne Tin, Epi, prelim
-2010, Bradley Foerster, GTPCI, prelim
-2010, Jeff Goldsmith, Biostat, prelim
-2010, Attia Goheer, Epi, prelim
-2010, Xiaoxu Kang, BME, prelim
-2010, Maggie Kuo, BME, prelim
-2010, Yan Ning, Biostat, prelim
-2010, Carolyn Scrafford, IH, prelim
-2010, Yajing Yang, BME, prelim
-2009, Vikram Aggarwal, BME, prelim
-2008, Soumyadipta Acharya, BME, prelim
-2008, Haley Hedlin, Biostat, prelim
-2008, Alan Huang, BME, prelim
-2008, Yang Hui, HPM, prelim
-2008, Jun Hua, EE, prelim
-2008, Zhiliang Ma, AMS, prelim
-2008, Gila Neta, Epi, prelim
-2008, Adam Stakenas, AMS, prelim
-2008, Bruce Swihart, Biostat, prelim
-2008, James Williams, MH, prelim  
-2007, Gabriel Lai, Epi, prelim
-2007, Issel Lim, BME, prelim
-2007, Greta Mok, EHS, prelim
-2007, Erin Rand-Giovanetti, HPM, prelim
-2007, Hilary Schwandt, PFH, prelim
-2007, Kenneth Shermock, HPM, prelim
-2007, Stella Yi, Epi, prelim 
-2006, Ying Cao, GTPCI, prelim
-2006, Yu-Jen Chen, Biostat, prelim
-2006, Alison Laffan, Epi, prelim
-2006, Taek Soo Lee, EHS, prelim
-2006, Xianbin Li, Biostat, prelim
-2006, Shu-Chih Su, Biostat, prelim
-2005, Leslie Cromwell, HPM, prelim
-2005, Bin He, EHS, prelim 
-2004, Kenneth Brenneman, EHS, prelim
-2004, Elizabeth Johnson, Biostat, prelim
-2004, Rongheng Lin, Biostat, prelim
-2003, Yi Huang, Biostat, prelim
-2003, Lin Zhang, Epi, prelim 
-2002, Dongmei Liu, Biostat, prelim
-2002, Samuel Mills, PFH, prelim
-2021, Bingkai Wang, Biostat, final
-2020, Michelle Hawks Cuellar, PFRH, final
-2020, Celia Karp, PFRH, final  
-2020, Zeyi Wang, Biostat, final 
-2019, Courtenay Holscher, GTPCI, final
-2019, Eugenie Shieh,  GTPCI, final
-2019, Ethel Weld,  GTPCI, final 
-2018, Roxanne Mirabal-Beltran, PFRH, final 
-2016, Yue Chen, Biostat, final 
-2016, Aaron Fisher, Biostat, final 
-2016, Amanda Mejia, Biostat, final
-2016, John Muschelli, Biostat, final
-2016, Huitong Qiu, Biostat, final 
-2015, Hiwot Hiruy,  GTPCI, final
-2014, Shaojie Chen, Biostat, final
-2014, Juemin Yang, Biostat, final 
-2014, Sarah Kashwinah, MH, final
-2014, Jenna Krall, Biostat, final
-2014, Haochang Shou, Biostat, final
-2014, Zhenke Wu, Biostat, final
-2013, Bradley Forster,  GTPCI, final
-2013, Shanshan Li, Biostat, final
-2013, Carolyn Scrafford, IH, final
-2012, Yifang Chang, MH, final
-2012, Nan Guo, Epi, final
-2012, Jing Hua, Epi, final
-2012, Gwenyth Lee, IH, final
-2012, Allan Massie, Epi, final
-2012, Caroline Min, PFHS, final  
-2012, Saman Nazarian, Epi, final
-2011, Haley Hedlin, Biostat, final
-2011, Jennifer Schrack, Epi, final
-2011, Jennifer Feder, Biostat, final
-2011, Bruce Swihart, Biostat, final 
-2009, Kenneth Brenneman, EHS, final
-2009, Greta Mok, EHS, final
-2009, Alison Mondul, Epi, final
-2009, James R Williams, MH, final
-2008, Ying Cao, GTPCI, final 
-2008, Ingrid Frieberg, IH, final
-2008, Alison Laffan, Epi, final
-2008, Xianbin Li, Biostat, final
-2008, Chi Liu, EHS, final
-2008, Shu-Chih Su, Biostat, final  
-2007, Leslie Conwell, HPM, final
-2007, Yue Yin, Biostat, final
-2006, Hongfei Guo, Biostat, final
-2006, Bin He, EHS, final
-2006, Bruce Swihart, UC Denver Master’s thesis defense 
-2005, Leena Choi, Biostat, final
-2005, Mike Griswold, Biostat, final
-2005, Dongmei Liu, Biostat, final
-2005, John Majnu, AMS, final 
-2005, Susan Milner, PFH, final 
-2004, Samuel Mills, PFH, final
-2004, Judy Ng, HPM, final
-2004, Lin Zhang, Epi
-
-
-\subsection*{Final oral participation}
-\begin{description}
-2021, Bingkai Wang, Biostat, 
-2020, Michelle Hawks Cuellar, PFRH, , Celia Karp, PFRH, ,  Zeyi Wang, Biostat, , 
-2019,  Courtenay Holscher,  GTPCI, , Eugenie Shieh,  GTPCI, , Ethel Weld,  GTPCI, 
-2018, Roxanne Mirabal-Beltran, PFRH, 
-2016, Yue Chen, Biostat, , Aaron Fisher, Biostat, , Amanda Mejia, Biostat, , John Muschelli, Biostat, , Huitong Qiu, Biostat, 
-2015, Hiwot Hiruy,  GTPCI, 
-2014, Shaojie Chen, Biostat, , Juemin Yang, Biostat, 
-2014, Sarah Kashwinah (MH), Jenna Krall, Biostat, , Haochang Shou, Biostat, , Zhenke Wu, Biostat, 
-2013, Bradley Forster,  GTPCI, , Shanshan Li, Biostat, , Carolyn Scrafford (IH)
-2012, Yifang Chang (MH), Nan Guo (Epi), Jing Hua (Epi), Gwenyth Lee (IH), Allan Massie (Epi), Caroline Min (PFHS),  Saman Nazarian (Epi)
-2011, Haley Hedlin, Biostat, , Jennifer Schrack (Epi), Jennifer Feder, Biostat, , Bruce Swihart, Biostat, 
-2009, Kenneth Brenneman (EHS), Greta Mok (EHS), Alison Mondul (Epi) James R Williams (MH) 
-2008, Ying Cao,  GTPCI, , Ingrid Frieberg (IH), Alison Laffan (Epi), Xianbin Li, Biostat, , Chi Liu 
-(EHS), Shu-Chih Su, Biostat,  
-2007, Leslie Conwell (HPM), Yue Yin, Biostat,  
-2006, Hongfei Guo, Biostat, , Bin He (EHS), Bruce Swihart (UC Denver Master’s thesis defense) 
-2005, Leena Choi, Biostat, , Mike Griswold, Biostat, , Dongmei Liu, Biostat, , John Majnu (AMS), 
-Susan Milner (2005) 
-2004, Samuel Mills (PFH), Judy Ng (HPM), Lin Zhang (Epi)
-\end{description}
+Year,Name,Department,Exam
+2021,Mickey Eagelson,GTPCI,prelim
+2021,Victoria Bendersky,GTPCI,prelim
+2021,Nicole Jenkinson,BME,prelim
+2021,Steve Luo,BME,prelim
+2021,Catherine Ding,BME,prelim
+2021,Alexis Low,BME,prelim
+2021,Srirama Sankar,BME,prelim
+2021,Eric Bridgeford,Biostat,prelim
+2021,Olivia Leavitt,BME,prelim
+2021,Alessandro Orlando,Epi,prelim
+2021,Sri Sankar,BME,prelim
+2020,Huan Chen,Biostat,prelim
+2020,Sayan Ghosal,EE,prelim
+2020,Hamed Honari,EE,prelim
+2020,Bohao Tang,Biostat,prelim
+2020,Vy Tran,EHE,prelim
+2020,Guoqing Wang,Biostat,prelim
+2020,Jennine Wellner,GTPCI,prelim
+2019,Vikram Chandrashekhar,BME,prelim
+2019,Lacey Etzkorn,Biostat,prelim
+2018,Joshua Cappe,AMS,prelim
+2018,Celia Carp,PFRH,prelim
+2018,Bingkai Wang,Biostat,prelim
+2018,Zeyi Wang,Biostat,prelim
+2017,Runze Tang,AMS,prelim
+2016,Eugenie Shieh,GTPCI,prelim
+2015,John Muschelli,Biostat,prelim
+2014,Hiwot Hiruy,GTPCI,prelim
+2014,Shaojie Chen,Biostat,prelim
+2014,Aaron Fisher,Biostat,prelim
+2014,Huitong Qiu,Biostat,prelim
+2013,Fang Han,Biostat,prelim
+2013,Sarah Khasawinah,Biostat,prelim
+2013,Gwenyth Lee,IH,prelim
+2013,Jenna Riis,PFRP,prelim
+2013,Chen Yue,Biostat,prelim
+2012,Andrew Pike,MMI,prelim
+2012,Tom Prior,Biostat,prelim
+2012,Haochang Shou,Biostat,prelim
+2012,Zhenke Wu,Biostat,prelim
+2012,Juemin Yang,Biostat,prelim
+2011,Melania Bembea,GTPCI,prelim
+2011,Yifang Chuang,MH,prelim
+2011,Jenna Krall,Biostat,prelim
+2011,Shanshn Li,Biostat,prelim
+2011,Saman Nazarian,Epi,prelim
+2011,Adrienne Tin,Epi,prelim
+2010,Bradley Foerster,GTPCI,prelim
+2010,Jeff Goldsmith,Biostat,prelim
+2010,Attia Goheer,Epi,prelim
+2010,Xiaoxu Kang,BME,prelim
+2010,Maggie Kuo,BME,prelim
+2010,Yan Ning,Biostat,prelim
+2010,Carolyn Scrafford,IH,prelim
+2010,Yajing Yang,BME,prelim
+2009,Vikram Aggarwal,BME,prelim
+2008,Soumyadipta Acharya,BME,prelim
+2008,Haley Hedlin,Biostat,prelim
+2008,Alan Huang,BME,prelim
+2008,Yang Hui,HPM,prelim
+2008,Jun Hua,EE,prelim
+2008,Zhiliang Ma,AMS,prelim
+2008,Gila Neta,Epi,prelim
+2008,Adam Stakenas,AMS,prelim
+2008,Bruce Swihart,Biostat,prelim
+2008,James Williams,MH,prelim 
+2007,Gabriel Lai,Epi,prelim
+2007,Issel Lim,BME,prelim
+2007,Greta Mok,EHS,prelim
+2007,Erin Rand-Giovanetti,HPM,prelim
+2007,Hilary Schwandt,PFH,prelim
+2007,Kenneth Shermock,HPM,prelim
+2007,Stella Yi,Epi,prelim
+2006,Ying Cao,GTPCI,prelim
+2006,Yu-Jen Chen,Biostat,prelim
+2006,Alison Laffan,Epi,prelim
+2006,Taek Soo Lee,EHS,prelim
+2006,Xianbin Li,Biostat,prelim
+2006,Shu-Chih Su,Biostat,prelim
+2005,Leslie Cromwell,HPM,prelim
+2005,Bin He,EHS,prelim
+2004,Kenneth Brenneman,EHS,prelim
+2004,Elizabeth Johnson,Biostat,prelim
+2004,Rongheng Lin,Biostat,prelim
+2003,Yi Huang,Biostat,prelim
+2003,Lin Zhang,Epi,prelim
+2002,Dongmei Liu,Biostat,prelim
+2002,Samuel Mills,PFH,prelim
+2021,Bingkai Wang,Biostat,final
+2020,Michelle Hawks Cuellar,PFRH,final
+2020,Celia Karp,PFRH,final
+2020,Zeyi Wang,Biostat,final
+2019,Courtenay Holscher,GTPCI,final
+2019,Eugenie Shieh,GTPCI,final
+2019,Ethel Weld,GTPCI,final
+2018,Roxanne Mirabal-Beltran,PFRH,final
+2016,Yue Chen,Biostat,final
+2016,Aaron Fisher,Biostat,final
+2016,Amanda Mejia,Biostat,final
+2016,John Muschelli,Biostat,final
+2016,Huitong Qiu,Biostat,final 
+2015,Hiwot Hiruy,GTPCI,final
+2014,Shaojie Chen,Biostat,final
+2014,Juemin Yang,Biostat,final 
+2014,Sarah Kashwinah,MH,final
+2014,Jenna Krall,Biostat,final
+2014,Haochang Shou,Biostat,final
+2014,Zhenke Wu,Biostat,final
+2013,Bradley Forster,GTPCI,final
+2013,Shanshan Li,Biostat,final
+2013,Carolyn Scrafford,IH,final
+2012,Yifang Chang,MH,final
+2012,Nan Guo,Epi,final
+2012,Jing Hua,Epi,final
+2012,Gwenyth Lee,IH,final
+2012,Allan Massie,Epi,final
+2012,Caroline Min,PFHS,final  
+2012,Saman Nazarian,Epi,final
+2011,Haley Hedlin,Biostat,final
+2011,Jennifer Schrack,Epi,final
+2011,Jennifer Feder,Biostat,final
+2011,Bruce Swihart,Biostat,final 
+2009,Kenneth Brenneman,EHS,final
+2009,Greta Mok,EHS,final
+2009,Alison Mondul,Epi,final
+2009,James R Williams,MH,final
+2008,Ying Cao,GTPCI,final 
+2008,Ingrid Frieberg,IH,final
+2008,Alison Laffan,Epi,final
+2008,Xianbin Li,Biostat,final
+2008,Chi Liu,EHS,final
+2008,Shu-Chih Su,Biostat,final  
+2007,Leslie Conwell,HPM,final
+2007,Yue Yin,Biostat,final
+2006,Hongfei Guo,Biostat,final
+2006,Bin He,EHS,final
+2006,Bruce Swihart,UC Denver Master’s thesis defense 
+2005,Leena Choi,Biostat,final
+2005,Mike Griswold,Biostat,final
+2005,Dongmei Liu,Biostat,final
+2005,John Majnu,AMS,final 
+2005,Susan Milner,PFH,final 
+2004,Samuel Mills,PFH,final
+2004,Judy Ng,HPM,final
+2004,Lin Zhang,Epi

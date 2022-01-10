@@ -33,7 +33,7 @@ Year,Name,Department,Exam
 2013,Fang Han,Biostat,prelim
 2013,Sarah Khasawinah,Biostat,prelim
 2013,Gwenyth Lee,IH,prelim
-2013,Jenna Riis,PFRP,prelim
+2013,Jenna Riis,PFRH,prelim
 2013,Chen Yue,Biostat,prelim
 2012,Andrew Pike,MMI,prelim
 2012,Tom Prior,Biostat,prelim
@@ -135,7 +135,6 @@ Year,Name,Department,Exam
 2007,Yue Yin,Biostat,final
 2006,Hongfei Guo,Biostat,final
 2006,Bin He,EHS,final
-2006,Bruce Swihart,UC Denver Master’s thesis defense 
 2005,Leena Choi,Biostat,final
 2005,Mike Griswold,Biostat,final
 2005,Dongmei Liu,Biostat,final
@@ -144,3 +143,20 @@ Year,Name,Department,Exam
 2004,Samuel Mills,PFH,final
 2004,Judy Ng,HPM,final
 2004,Lin Zhang,Epi
+2021,Yuki Kang,Biostat,masters
+2021,Xuemin Zhu,Biostat,masters
+2020,Luchao Qi,Biostat,masters
+2014,Clair Rock,UMD Epi,masters
+2012,Rawan Al-Lozi,Biostat,masters
+2012,Francisco Leva,GTPCI,masters
+2011,Jiawei Bai,Biostat,masters
+2011,Pohan Chen,Biostat,masters
+2010,Ben Althouse,Biostat,masters 
+2009,Catherine Thomas,Biostat,masters
+2009,Ros Reside,Epi,masters 
+2006,Ricardo Carvalho,GTPCI,masters
+2006,Bruce Swihart,UC Denver Biostat,masters 
+2005,Brendan Click,Biostat,masters
+2005,Jennifer Ryea,Biostat,masters 
+2004,Meh Fen Yeh,Biostat,masters
+

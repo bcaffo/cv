@@ -1,0 +1,42 @@
+|Start|End|Role|Course title|Place|Notes| 
+|2001|2005|Primaryinstructor|Advanced Statistical Computing|JHU|Regular course|
+|2003|2004|Primary instructor|Advanced Methods in Biostatistics IV|JHU|Regular course|
+|2003|2003|Guest lecturer|Advanced Methods in Biostatistics II|JHU|Regular course|
+|2003|2008|Guest lecturer|Computing orientation and student comp club|JHU|Seminar course|
+|2003|2004|Primary instructor|Statistical Computing|JHU|Regular course|
+|2008|2008|Primary instructor|Statistical Computing|JHU|Regular course|
+|2004|2005|Primary instructor|Advanced Methods in Biostatistics III|JHU|Regular course| 
+|2005|2010|Primary instructor|Methods in Biostatistics  I|JHU|Regular course|
+|2005|2010|Primary instructor|Methods in Biostatistics II|JHU|Regular course|
+|2008|2008|Primary instructor|Medical Imaging Statistics|JHU|Regular course|
+|2010|2017|Guest lecturer|Public Health Perspectives Biostatistics Module|JHU|Regular course|
+|2011|2014|Primary instructor|Advanced Methods in Biostatistics I and II|JHU|Regular course|
+|2013|2013|Guest instructor|ICTR training program|JHU|Seminar course|
+|2015|2018|Primary instructor|Advanced Linear Models I and II|JHU|Regular course|
+|2019|2021|Primary instructor|Introduction to Data Science for BME|JHU|Regular course|
+|2019|2021|Primary instructor|Advanced Data Science for BME|JHU|Regular course|
+|2019|2021|Primary instructor|Data Science for Public Health I and II|JHU|Regular course|
+|2011|2011|Co-instructor|Stat. methods forhigh throughput meas.|ENAR|Short course|
+|2015|2015|Co-organizer|Data Science Hackathon|JHU|Short course|
+|2017|2019|Co-instructor|Quarterly MRICloud and R tutorial series|JHU|Short course|
+|2012|2021|Primary instructor|Mathematical Biostatistics Boot Camp|Coursera|MOOC| 
+|2013|2021|Primary instructor|Mathematical Biostatistics Boot Camp 2|Coursera|MOOC| 
+|2018|2021|Primary instructor|Advanced Linear Models for Data Science 1|Coursera|MOOC|
+|2018|2021|Primary instroctor|Advanced Linear Models for Data Science 2|Coursera|MOOC|
+|2014|2021|Co developer|Data Science Specialization|Coursera|MOOC Specialization|
+|2014|2021|Primary instructor|Statistical Inference|Coursera|MOOC| 
+|2014|2021|Primary instructor|Regression Models|Coursera|MOOC|
+|2014|2021|Primary instructor|Developing Data Products|Coursera|MOOC|
+|2014|2021|Support instructor|Data Scientist's Toolbox|Coursera|MOOC|
+|2014|2021|Support instructor|R programming|Coursera|MOOC|
+|2014|2021|Support instructor|Getting and Cleaning Data|Coursera|MOOC|
+|2014|2021|Support instructor|Exploratory Data Analysis|Coursera|MOOC| 
+|2014|2021|Support instructor|Reproducible Research|Coursera|MOOC|
+|2014|2021|Support instructor|Practical Machine Learning|Coursera|MOOC|
+|2014|2021|Co instructor|Data Science Specialization Capstone|Coursera|MOOC|
+|2018|2021|Co developer|Executive Data Science Specialization|Coursera|MOOC Specialization|
+|2018|2021|Co instructor|A Crash Course in Data Science|Coursera|MOOC|
+|2018|2021|Co instructor|Building a Data Science Team|Coursera|MOOC|
+|2018|2021|Co instructor|Managing Data Analyses|Coursera|MOOC|
+|2018|2021|Co instructor|Data Science in Real Life|Coursera|MOOC|
+|2018|2021|Co instructor|Executive Data Science Specialization Capstone|Coursera|MOOC|

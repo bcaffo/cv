@@ -1,0 +1,26 @@
+|Start|End|Group|Role|
+|2021|2021|JHU|Access and Retention Subcommittee|
+|2021|2021|JHBSPH|Data Council|
+|2021|2021|IDIES|Executive Board|
+|2021|2021|JHU|Univeristy Pandemic Academic Advisory Committee|
+|2019|2021|Biostat|JHPCE Co-director|
+|2021|2022|Malone Center|Director search committee| 
+|2019|2022|JHBSPH|Faculty senate president-elect, current, past|
+|2017|2019|JHBPSH|Honors and Awards committee|
+|2017|2018|JHBSPH|Faculty Innovation Fund grant referee| 
+|2016|2016|BME|Data science faculty search committee| 
+|2016|2016|Biostat|Faculty Search committee|
+|2016|2021|Malone Center|Steering Committee|
+|2019|2021|Malone Center|Seed Grant review committee| 
+|2002|2002|Biostatistics|Admissions committee|
+|2009|2020|Biostatistics|Admissions committee| 
+|2010|2012|Biostatistics|Co-director of the graduate program| 
+|2012|2016|Biostatistics|Director of the graduate program| 
+|2001|2009|Biostatistics|Information technology committee member|
+|2001|2002|Biostatistics|Seminar coordinator| 
+|2008|2010|MPH|Co-director Biostat/Epi MPH concentration|
+|2003|2003|JHBSPH|Co-organizer Junior Faculty Meetings|  
+|2007|2010|JHBSPH|CEDC member|
+|2002|2004|JHBSPH|Faculty Senate representative| 
+|2009|2011|MPH|Admissions Committee member|
+|2009|2011|MPH|Executive Board member|

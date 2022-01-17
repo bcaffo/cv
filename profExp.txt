@@ -1,0 +1,12 @@
+|Start|End|Title|Place|Organization
+|2019|2021|Secondary|Dept. of Biomedical Engineering|JHU
+|2019|2022|Co-director|Johns Hopkins High Performance Computing Exchange|JHU
+|2016|2022|Faculty member|Kavli Neuroscience Discovery Institute|JHU
+|2017|2022|Faculty member|Malone Center for Engineering and Healthcare|JHU
+|2014|2022|Co-founding member|Johns Hopkins Data Science Lab|JHU
+|2011|2022|Founding co-director|SMART research group|JHU
+|2013|2022|Full professor|Dept. of Biostat|JHU
+|2007|2013|Associate professor|Dept. of Biostat|JHU
+|2001|2007|Assistant professor|Dept. of Biostat|JHU
+|1996|1999|Research assistant for professor Alan Agresti|Depart. of Stat.|UFL
+|1996|1999| Intern /  programmer|Pediatric Oncology Group|UFL

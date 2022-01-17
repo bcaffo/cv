@@ -1,0 +1,33 @@
+|End|Start|Degree|Advisee|Place|Title|Notes|
+| 2005 | 2001 | PhD | Leena Choi | JHU Biostat | *Modelling biomedical data and the foundations of bioequivalence*| |
+| 2006 | 2004 | ScM | Lijuan Deng |JHU Biostat | *Spline-based curve fitting with applications to kinetic imaging*||
+| 2006 | 2004 | MS | Bruce Swihart | University of Colorado Biostatistics | *Quantitative characterization of sleep architecture using multi- state and log-linear models* | co-advised with Naresh Punjabi and Gary Grunwald |
+| 2007 | 2005 | MPH | Jeong Yun | JHU BSPH | *Incidence of hypertension in high risk groups of the Sleep Heart Health Study* | |
+| 2008 | 2003 | PhD | Xianbin Li | JHU Biostat | *Modeling composite outcomes and their component parts* ||
+| 2008 | 2003 | PhD | Shu-Chih Su | JHU Biostat |*Structure/function relationships in the analysis of anatomical and functional neuroimaging data*| |
+| 2010 | 2008 | ScM | John Muschelli | JHU Biostat | *An iterative approach to hemodynamic response function temporal derivatives in statistical parametric mapping for functional neuroimaging* || 
+| 2011 | 2006 | PhD | Haley Hedlin | JHU Biostat | *Statistical methods for inter-subject analysis of neuroscience data* ||
+| 2011 | 2006 | PhD | Bruce Swihart | JHU Biostat | *From individuals to populations: application and insights concerning the generalized linear mixed model* ||
+| 2012 | 2007 | PhD | Jeff Goldsmith | JHU Biostat | *Cross-Sectional and longitudinal penalized functional regression* | co-advised with primary advisor Ciprian Crainiceanu |
+| 2012 | 2010 | MPH | Tiziano Marovino | JHU BSPH | *The concurrent validity of musculo-skeletal ultrasound imaging in comparison to MRI for detecting rotator cuff tears in the shoulder when performed in a physical therapy setting* ||
+| 2013 | 2011 | ScM | Rawan Al-Lozi | JHU Biostat | *An evaluation of statistical modeling methods for predicting recovery time from post-traumatic amnesia following moderate or severe traumatic brain injury in children* ||
+| 2013 | 2008 | PhD | Shanshan Li | JHU Biostat | *Statistical Methods for Evaluating Diagnostic Accuracy of Biomarkers* | co-advised with primary advisor Mei-Cheng Wang |
+| 2013 | 2011 | MHS | Xiaoqiang Xu | JHU Biostat | *Parallel Voxel Level Anything* ||
+| 2015 | 2011 | PhD | Juemin Yang  | JHU Biostat | *Statistical Methods for Brain Imaging and Genomic Data Analysis* ||
+| 2015 | 2011 | PhD | Shaojie Chen | JHU Biostat |*Statistical Methods to Analyze Massive High-Dimensional Neuroimaging Data* ||
+| 2015 | 2010 | PhD | Fang Han     | JHU Biostat | *Large-scale nonparametric and semiparametric inference for large complex and noisy datasets* | co-advised with Han Liu |
+| 2016 | 2011 | PhD | Chen Yue | JHU Biostat |*Generalizations, extensions and applications for principal component analysis* | co-advised with Vadim Zipunnikov |
+| 2016 | 2011 | PhD | Amanda Mejia | JHU Biostat | *Statistical Methods for Functional Magnetic Resonance Imaging Data* | co-advised with primary advisor Martin Lindquist |
+| 2016 | 2011 | PhD | Aaron Fisher | JHU Biostat | *Methods for High Dimensional Analysis, Multiple Testing, and Visual Exploration* | co-advised with primary advisor Vadim Zipunnikov |
+| 2016 | 2011 | PhD | Huitong Qiu  | JHU Biostat | *Statistical Methods and Theory for  Analyzing High Dimensional Time Series* | |
+| 2020 | 2015 | PhD | Zeyi Wang    | JHU Biostat | *Statistical Analysis of Functional Connectivity in Brain Imaging: Measurement Reliability and Clinical Applications* | co-advised with Joshua Vogelstein|
+| 2020 | 2019 | MSE | Luchao Qi | JHU BME | *Associations between Body Mass Index (BMI) and Physical Activity: National Health and Nutritional Examination Survey (NHANES) 2005-2006*||
+| 2021 | 2016 | PhD | Bingkai Wang | JHU Biostat | *Statistical Methods for Analyzing Randomized Trials and Brain Imaging Data* | co-advised with primary advisor Michael Rosenblum |
+| 2022 | 2016 | PhD | Huan Chen | JHU Biostat | In progress | date is expected grad. date|
+| 2022 | 2016 | PhD | Bohao Tang | JHU Biostat | In progress | date is expected grad. date |
+| 2022 | 2016 | PhD | Eric Bridgeford | JHU Biostat | In progress | co-advised with primary advisor Joshua Vogelstein date is expected grad. data|
+| 2012 | 2009 | Post doc | Vadim Zipunnikov |JHU Biostat | | co-advising with primary advisor Ciprian Crainiceanu |
+| 2013 | 2010 | Post doc | Ani Eloyan |JHU Biostat | | co-advising with Ciprian Crainiceanu |
+| 2013 | 2011 | Post doc | Seonjoo Lee | Henry Ford || co-advising with primary advisor Dzung Pham |
+| 2020 | 2017 | Post doc | Yi Zhao |JHU Biostat | | co-advising with Stewart Mostofsky and Martin Lindquist |  
+| 2020 | 2017 | Post doc | Heather Shappell |JHU Biostat || co-advising with Jim Pekar and primary advisor Martin Lindquist, started in 2017|

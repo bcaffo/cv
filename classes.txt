@@ -15,8 +15,8 @@
 |2015|2018|Primary instructor|Advanced Linear Models I and II|JHU|Regular course|
 |2019|2021|Primary instructor|Advanced Data Science for BME|JHU|Regular course|
 |2019|2022|Primary instructor|Introduction to Data Science for BME|JHU|Regular course|
-|2019|2022|Primary instructor|Data Science for Public Health I|JHU|Regular course|
-|2019|2022|Primary instructor|Data Science for Public Health II|JHU|Regular course|
+|2019|2023|Primary instructor|Data Science for Public Health I|JHU|Regular course|
+|2019|2023|Primary instructor|Data Science for Public Health II|JHU|Regular course|
 |2022|2022|Primary instructor|Advanced Data Science for Public Health I|JHU|Regular course|
 |2022|2022|Primary instructor|Advanced Data Science for Public Health II|JHU|Regular course|
 |2011|2011|Co-instructor|Stat. methods forhigh throughput meas.|ENAR|Short course|

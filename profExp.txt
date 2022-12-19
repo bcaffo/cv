@@ -1,5 +1,5 @@
 |Start|End|Title|Place|Organization
-|2019|2021|Secondary|Dept. of Biomedical Engineering|JHU
+|2019|2022|Secondary|Dept. of Biomedical Engineering|JHU
 |2019|2022|Co-director|Johns Hopkins High Performance Computing Exchange|JHU
 |2016|2022|Faculty member|Kavli Neuroscience Discovery Institute|JHU
 |2017|2022|Faculty member|Malone Center for Engineering and Healthcare|JHU

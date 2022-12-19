@@ -9,13 +9,9 @@ execute:
 <hr>
 | Professor |
 |:---  |
-| [Departments of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics) (primary)|
-| [Department of Biomedical Engineering](https://www.bme.jhu.edu/) (courtesy) |
-| [Johns Hopkins University](www.jhu.edu) |
-| [Contact information](https://publichealth.jhu.edu/departments/biostatistics) |
-| [www.bcaffo.com](www.bcaffo.com) |
-| CV repo [github, https://github.com/bcaffo/cv](https://github.com/bcaffo/cv) |
-| CV hosted version [https://bcaffo.github.io/cv/cvJupyter.html](https://bcaffo.github.io/cv/cvJupyter.html) |
+| [Departments of Biostatistics](https://publichealth.jhu.edu/departments/biostatistics) [Johns Hopkins University](www.jhu.edu) (primary),|
+| [Department of Biomedical Engineering](https://www.bme.jhu.edu/), [Johns Hopkins University](www.jhu.edu) (courtesy) |
+| [www.bcaffo.com](www.bcaffo.com), [CV repo](https://github.com/bcaffo/cv), [CV hosted version](https://bcaffo.github.io/cv/cvJupyter.html) |
 
 # Part I 
 ## Summary
@@ -58,9 +54,21 @@ width = 600
 
 ## Note to render to pdf do
 ## quarto render cvJupyter.qmd --to pdf
-
 pd.set_option("display.max_rows", 999)
-dat = pd.read_csv("publications_01042022_2.csv")
+#dat = pd.read_csv("publications_01042022_2.csv")
+dat = pd.read_csv("publications_12072022.csv")
+
+## Not sure why these columns changes. 
+## Here's the ones you need, reset these every year
+dat = dat.rename(columns = {
+    'Authors' : 'Authors',
+    'Year' : 'Publication Year',
+    'Title'        : 'Document Title',
+    'Source title' : 'Journal Title',
+    'Cited by'     : 'Citations'
+})
+dat['Citations'] = dat['Citations'].fillna(0)
+
 ```
 
 ## Professional experience
@@ -132,20 +140,23 @@ I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm able to.
 | 2011 | Presidential Early Career Award for Scientists and Engineers (PECASE, 2010, awarded in 2011); *The highest honor bestowed by the United States government on science and engineering professionals in the early stages of their independent research careers* |
 | 2014 | Named a Fellow of the American Statistical Association |
 | 2015 | Special Invited Lecturer, European Meeting of Statisticians |
+| 2022 | Adrienne Cupples award; *This annual award recognizes a biostatistician whose academic achievements reflect the contributions to teaching, research, and service exemplified by [Professor L. Adrienne Cupples](https://www.bu.edu/sph/news/articles/2022/l-adrienne-cupples-in-memoriam/)*  
 
 ## Publications
 
-Publications reported in Scopus as of 01/04/2021. My total number of Scopus publications is 228. Below is a plot of total publications by year where each small rectangle is a publication. 
+Publications reported in Scopus as of 12/07/2022. My total number of Scopus publications is 228. Below is a plot of total publications by year where each small rectangle is a publication. 
 
 ```{python}
 ## Create a temporary copy of the dataset and work with that
 temp = dat
 temp = temp.assign(Count = 1)
-temp = temp.rename(columns = {'total' : 'Citations'})
+
+
 fig = px.bar(temp, x = 'Publication Year', 
                  y = 'Count',
                  color = 'Document Title',
                  hover_data = ['Publication Year', 'Document Title', 'Journal Title', 'Authors', 'Citations'])
+
 
 fig = fig.update_layout({
     'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
@@ -181,16 +192,21 @@ fig
 
 ```
 
-I have published with 625 coauthors. Here is authors that I have had 10 or over manuscripts with.
+I have published with 629 coauthors. Here is authors that I have had 10 or over manuscripts with.
 
 ```{python}
+import itertools
 
+## Get just the author last names. Have to strip out the initials
+## Also, there's white space at the beginning
 text = [s.split(',') for s in dat['Authors']]
-text = [b.lstrip() for a in text for b in a]
+text = list(itertools.chain(*text))
+text = [s.lstrip() for s in text if s.find('.') < 0]
+
 #pd.set_option('display.max_rows', None)
 authors = pd.DataFrame({'Author' : text}).value_counts().reset_index()#.sort_values("Author")
 authors = authors.rename(columns = {0 : 'Count'})
-authors = authors.loc[authors['Author'] != 'Caffo B.']
+authors = authors.loc[authors['Author'] != 'Caffo']
 authors.loc[authors['Count'] < 10, 'Author'] = 'Other'
 ## Decided to get rid of those rows
 authors = authors.loc[authors['Author'] != 'Other']
@@ -219,14 +235,20 @@ fig
 Here's a plot of number of authors for each manuscript.
 
 ```{python}
+
+## Get a list of lists of last names
 text = [s.split(',') for s in dat['Authors']]
+lname= lambda x: [s.lstrip() for s in x if s.find('.') < 0]
+text = [lname(x) for x in text]
+
+
 position = []
 authorno = []
 for i in range(len(text)):
     s = text[i]
     authorno.append(len(s))
     for j in range(len(s)):
-        if 'Caffo B.' in s[j]:
+        if 'Caffo' in s[j]:
             if (j == 0) :
                 position.append('First')
             elif (j == len(s) - 1) :
@@ -260,7 +282,8 @@ fig = fig.update_layout({
 fig.show()
 ```
 
-Here's a plot of my author position. 
+Here's a plot of my author position where the classification is mutually exclusive searching in the precedence: first, last, second, second to last. (So, middle author in a three author manuscript would be classified as second, not second to last.)
+
 
 ```{python}
 Position = temp['Position'].value_counts().reset_index()
@@ -411,7 +434,7 @@ fig.show()
 ```
 
 ### Classroom Instruction
-To the nearest year. Data Science and EDS specializations were with Roger Peng and Jeff Leek. 
+To the nearest year. Data Science and EDS specializations were with Roger Peng and Jeff Leek. Data Science Hackathon was with Leah Jager, Jeff Leek, Roger Peng. Guest lectures not included.
 
 ```{python}
 classes = pd.read_csv("classes.txt", delimiter="|").drop(['Unnamed: 0', ' '], axis = 1)

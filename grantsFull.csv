@@ -47,8 +47,7 @@ Start,End,Title,PI,Organization,Suborg,Mechanism,Grantno,YearlyDC,,
 07/01/18,06/30/23,Individualized Spatial Topology in Functional Neuroimaging,Lindquist,NIH,NIBIB,R01,EB026549,"$620,568",,
 07/01/18,01/31/19,Subtle Motor Functioning and Functional Connectivity in Youth Medically Cleared after Mild TBI,Suskauer,NIH,,R01,HD090266,"$7,850",Sub,KKI
 07/01/15,06/30/19,Adolescent Changes in Brain and Behavior in Boys and Girls with ADHD,Mostofsky,NIH,NIMH,R01,MH085328,"$5,112",,
-04/01/19,03/31/21,"A Unified Framework for Multimodal Neuroimaging Integration within a Heterogeneous
-Patient Cohort",Venkataraman,NIH,NIMH,R21,MH119363,"$155,623",,
+04/01/19,03/31/21,A Unified Framework for Multimodal Neuroimaging Integration within a Heterogeneous Patient Cohort,Venkataraman,NIH,NIMH,R21,MH119363,"$155,623",,
 04/01/19,03/31/24,Imaging Nicotinic Cholinergic Neuropathology in Mild Cognitive Impairment,Coughlin,NIH,NIA,R01,AG062558,"$472,878",,
 04/01/19,03/31/24,Imaging the alpha7 nicotinic receptor in recent onset of psychosis,Coughlin,NIH,NIMH,R01,MH116893,"$448,806",,
 12/01/18,11/30/23,Molecular Mechanism and Systems Neuroscience of Psilocybin,Barrett,NIH,NIMH,R01,MH118907,"$470,914",,
@@ -56,5 +55,12 @@ Patient Cohort",Venkataraman,NIH,NIMH,R21,MH119363,"$155,623",,
 07/01/20,06/30/25,Statistical Methods for structural and functional integration in multi-modal neuroimaging data,Caffo,NIH,NIBIB,R01,EB029977,"$250,000",,
 07/01/20,06/30/25,Transcranial direct current stimulation in typical and atypical Alzheimer’s Disease,Tsapkini,NIH,NIA,R01,AG068881,"$499,994",,
 07/01/20,06/30/25,Optimization of electrical stimulation approaches in three Primary Progressive Aphasia variants,Tsapkini,NIH,NIDOD,R01,DC014475,"$499,999",,
-07/01/21,04/30/26,"MRI Resource for Physiologic, Metabolic and Anatomic Biomarkers",Van Zijl,NIH,NIBIB,P41,EB031771,,,
+07/01/21,04/30/26,"MRI Resource for Physiologic, Metabolic and Anatomic Biomarkers",VanZijl,NIH,NIBIB,P41,EB031771,"$663,345",,
 08/01/20,07/31/21,A Novel Framework For Impaired Limitations In ASD,Egeth,NIH,,R01,MH113652,,,
+02/2022,01/2027,Precision medicine for neonatal hypoxic-ischemic encephalopathy,Oishi,NIH,NINDS,R01,NS126549,"$2,061,842",,
+06/2022,03/2026,Center for Community Health: Addressing Regional Maryland Environmental Determinants of Disease,Wills-Karp,NIH,NIEHS,P30,ES032756,"$5,575,122",,
+09/2022,08/2027,Cerebellar stimulation for Aphasia Rehabilitation,Sebastian,NIH,NIDCD,R01,DC019639,"$3,729,751",,
+09/2022,06/2027,High-dimensional Modeling of PET for Radiomic Biomarker Discovery,NIH,NIA,R01,AG075511,"$492,507",,
+09/2022,06/2027,Statistical Methods for Longitudinal Integrated Mechanistic Modeling of Multiview Data,NIH,NHLBI,R01,NS126549,"$500,000",,
+
+

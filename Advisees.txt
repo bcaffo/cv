@@ -23,12 +23,13 @@
 | 2020 | 2015 | PhD | Zeyi Wang    | JHU Biostat | *Statistical Analysis of Functional Connectivity in Brain Imaging: Measurement Reliability and Clinical Applications* | co-advised with Joshua Vogelstein|
 | 2020 | 2019 | MSE | Luchao Qi | JHU BME | *Associations between Body Mass Index (BMI) and Physical Activity: National Health and Nutritional Examination Survey (NHANES) 2005-2006*||
 | 2021 | 2016 | PhD | Bingkai Wang | JHU Biostat | *Statistical Methods for Analyzing Randomized Trials and Brain Imaging Data* | co-advised with primary advisor Michael Rosenblum |
-| 2022 | 2016 | PhD | Huan Chen | JHU Biostat | In progress | date is expected grad. date|
-| 2022 | 2016 | PhD | Bohao Tang | JHU Biostat | In progress | date is expected grad. date |
+| 2022 | 2016 | PhD | Huan Chen | JHU Biostat | *Topics in Statistical Learning for Complex Structured Data* | |
+| 2022 | 2016 | PhD | Bohao Tang | JHU Biostat | *Distributional regression: theory and application* | |
 | 2022 | 2016 | PhD | Eric Bridgeford | JHU Biostat | In progress | co-advised with primary advisor Joshua Vogelstein date is expected grad. data|
 | 2012 | 2009 | Post doc | Vadim Zipunnikov |JHU Biostat | | co-advising with primary advisor Ciprian Crainiceanu |
 | 2013 | 2010 | Post doc | Ani Eloyan |JHU Biostat | | co-advising with Ciprian Crainiceanu |
 | 2013 | 2011 | Post doc | Seonjoo Lee | Henry Ford || co-advising with primary advisor Dzung Pham |
 | 2020 | 2017 | Post doc | Yi Zhao |JHU Biostat | | co-advising with Stewart Mostofsky and Martin Lindquist |  
 | 2020 | 2017 | Post doc | Heather Shappell |JHU Biostat || co-advising with Jim Pekar and primary advisor Martin Lindquist, started in 2017|
+| 2024 | 2022 | Post doc | Bonnie Smith | JHU Biostat| | |
 | 2022 | 2022 | MPH | Oku Kenji | JHU BSPH | *Title TBD* | |

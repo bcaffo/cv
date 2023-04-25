@@ -31,7 +31,8 @@ He graduated from the University of Florida Department of Statistics in 2001. He
 import pandas as pd
 import plotly.express as px
 import numpy as np
-import wordcloud as wc
+#import wordcloud as wc
+#import stylecloud as sc
 import matplotlib.pyplot as plt
 import os
 from IPython.display import Image
@@ -317,12 +318,16 @@ titleFile.write(titles)
 titleFile.close()
 
 
+"""
+## For right now, comment this out, since I can't seem to install
+## wordcloud. using old version
 import stylecloud as sc
 sc.gen_stylecloud(file_path = 'titleFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
 
 os.rename('stylecloud.png', 'titles.png')
+"""
 ```
 
 Here's a wordcloud of words in the titles (excluding common use words, in the shape of an axial brain slice).
@@ -332,7 +337,7 @@ img = Image.open("titles.png")
 plt.figure(figsize=(5,5));
 plt.xticks([]);
 plt.yticks([]);
-plt.imshow(img);
+plt.imshow(img, frameon=False);
 ```
 
 Here's the total citation counts of manuscripts plotted by year of publication.
@@ -639,13 +644,14 @@ titleFile = open("seminarTitleFile.txt", "w")
 titleFile.write(titles)
 titleFile.close()
 
-
-import stylecloud as sc
+"""
+## once again commenting this out until I can figure it out
 sc.gen_stylecloud(file_path = 'seminarTitleFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
 
 os.rename('stylecloud.png', 'seminarTitles.png')
+"""
 ```
 
 ```{python}
@@ -664,12 +670,13 @@ titleFile.write(titles)
 titleFile.close()
 
 
-import stylecloud as sc
+"""
 sc.gen_stylecloud(file_path = 'seminarWhereFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
 
 os.rename('stylecloud.png', 'seminarWhere.png')
+"""
 ```
 
 ```{python}
@@ -680,11 +687,11 @@ plt.figure(figsize=(10,5));
 plt.subplot(1, 2, 1);
 plt.xticks([]);
 plt.yticks([]);
-plt.imshow(img1);
+plt.imshow(img1, frameon = False);
 
 plt.subplot(1, 2, 2);
 plt.xticks([]);
 plt.yticks([]);
-plt.imshow(img2);
+plt.imshow(img2, frameon = False);
 ```
 

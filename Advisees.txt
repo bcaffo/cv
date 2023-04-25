@@ -33,3 +33,6 @@
 | 2020 | 2017 | Post doc | Heather Shappell |JHU Biostat || co-advising with Jim Pekar and primary advisor Martin Lindquist, started in 2017|
 | 2024 | 2022 | Post doc | Bonnie Smith | JHU Biostat| | |
 | 2022 | 2022 | MPH | Oku Kenji | JHU BSPH | *Title TBD* | |
+| 2023 | 2023 | MSE | Kun Liang | JHU AMS  | Data Augmentation in Medical Images ||
+| 2023 | 2023 | MSE | Chenyu  Xie | JHU AMS | | |
+| 2023 | 2023 | MSE | Stephen Recupero | JHU AMS | | |

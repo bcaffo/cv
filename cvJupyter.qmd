@@ -31,8 +31,8 @@ He graduated from the University of Florida Department of Statistics in 2001. He
 import pandas as pd
 import plotly.express as px
 import numpy as np
-#import wordcloud as wc
-#import stylecloud as sc
+import wordcloud as wc
+import stylecloud as sc
 import matplotlib.pyplot as plt
 import os
 from IPython.display import Image
@@ -124,7 +124,7 @@ I usually try to create a JSM or ENAR session every year.
 | 2016-2016 | Guest associate editor for Frontiers in Neuroscience special issues on Brain Imaging Methods
 | 2021-2021 | Guest associate editor for Frontiers special issue in Explainable Artificial Intelligence in Healthcare and Finance |
 
-I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm able to. This usually translates to say 3 or so a year. I review manuscripts for journals I like whenever they're relevant to my research expertise and I have done a few conference abstract reviews and chaired sessions for conferences I like.
+I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm  able to. This usually translates to say 3 or so a year. I review manuscripts for journals I like whenever they're relevant to my research expertise and I have done a few conference abstract reviews and chaired sessions for conferences I like.
 
 ## Honors and awards
 
@@ -317,27 +317,19 @@ titleFile = open("titleFile.txt", "w")
 titleFile.write(titles)
 titleFile.close()
 
-
-"""
-## For right now, comment this out, since I can't seem to install
-## wordcloud. using old version
-import stylecloud as sc
 sc.gen_stylecloud(file_path = 'titleFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
-
 os.rename('stylecloud.png', 'titles.png')
-"""
 ```
 
 Here's a wordcloud of words in the titles (excluding common use words, in the shape of an axial brain slice).
 
 ```{python}
 img = Image.open("titles.png")
-plt.figure(figsize=(5,5));
-plt.xticks([]);
-plt.yticks([]);
-plt.imshow(img, frameon=False);
+fig, ax = plt.subplots(figsize=(5,5))
+ax.set_axis_off()
+ax.imshow(img);
 ```
 
 Here's the total citation counts of manuscripts plotted by year of publication.
@@ -644,14 +636,11 @@ titleFile = open("seminarTitleFile.txt", "w")
 titleFile.write(titles)
 titleFile.close()
 
-"""
-## once again commenting this out until I can figure it out
 sc.gen_stylecloud(file_path = 'seminarTitleFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
 
 os.rename('stylecloud.png', 'seminarTitles.png')
-"""
 ```
 
 ```{python}
@@ -670,28 +659,37 @@ titleFile.write(titles)
 titleFile.close()
 
 
-"""
 sc.gen_stylecloud(file_path = 'seminarWhereFile.txt', 
                   icon_name = 'fas fa-brain',
                   stopwords = True)
 
 os.rename('stylecloud.png', 'seminarWhere.png')
-"""
 ```
 
 ```{python}
+
+ax.set_axis_off()
+ax.imshow(img);
+
 img1 = Image.open("seminarTitles.png")
 img2 = Image.open("seminarWhere.png")
 
-plt.figure(figsize=(10,5));
-plt.subplot(1, 2, 1);
-plt.xticks([]);
-plt.yticks([]);
-plt.imshow(img1, frameon = False);
+plt.figure(figsize=(10, 5))
 
-plt.subplot(1, 2, 2);
-plt.xticks([]);
-plt.yticks([]);
-plt.imshow(img2, frameon = False);
+# First subplot
+plt.subplot(1, 2, 1)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img1)
+plt.gca().set_axis_off()  # Turn off the bounding box
+
+# Second subplot
+plt.subplot(1, 2, 2)
+plt.xticks([])
+plt.yticks([])
+plt.imshow(img2)
+plt.gca().set_axis_off()  # Turn off the bounding box
+
+plt.show()
 ```
 

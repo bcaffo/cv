@@ -46,8 +46,8 @@ faculty senate.
 import pandas as pd
 import plotly.express as px
 import numpy as np
-#import wordcloud as wc
-#import stylecloud as sc
+import wordcloud as wc
+import stylecloud as sc
 import matplotlib.pyplot as plt
 import os
 from IPython.display import Image
@@ -140,7 +140,7 @@ fig.show(warn = False)
 | 2016-2016 | Guest associate editor for Frontiers in Neuroscience special issues on Brain Imaging Methods
 | 2021-2021 | Guest associate editor for Frontiers special issue in Explainable Artificial Intelligence in Healthcare and Finance |
 
-I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm able to. This usually translates to say 3 or so a year. I review manuscripts for journals I like whenever they're relevant to my research expertise and I have done a few conference abstract reviews and chaired sessions for conferences I like.
+I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm  able to. This usually translates to say 3 or so a year. I review manuscripts for journals I like whenever they're relevant to my research expertise and I have done a few conference abstract reviews and chaired sessions for conferences I like.
 
 ## Honors and awards
 
@@ -306,6 +306,11 @@ titles = titles.replace("BASED", "")
 titleFile = open("titleFile.txt", "w")
 titleFile.write(titles)
 titleFile.close()
+
+sc.gen_stylecloud(file_path = 'titleFile.txt', 
+                  icon_name = 'fas fa-brain',
+                  stopwords = True)
+os.rename('stylecloud.png', 'titles.png')
 ```
 
 Here's a wordcloud of words in the titles (excluding common use words, in the shape of an axial brain slice).
@@ -321,6 +326,9 @@ ax.spines['top'].set_visible(False)  # Hide the top spine
 ax.spines['right'].set_visible(False)  # Hide the right spine
 ax.spines['bottom'].set_visible(False)  # Hide the bottom spine
 ax.spines['left'].set_visible(False)  # Hide the left spine
+fig, ax = plt.subplots(figsize=(5,5))
+ax.set_axis_off()
+ax.imshow(img);
 ```
 
 Here's the total citation counts of manuscripts plotted by year of publication.

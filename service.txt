@@ -1,4 +1,5 @@
 |Start|End|Group|Role|
+|2023|2024|JHU|Director of Academic Programs,DSAI|
 |2021|2021|JHU|Access and Retention Subcommittee|
 |2021|2021|JHBSPH|Data Council|
 |2021|2021|IDIES|Executive Board|

@@ -15,8 +15,23 @@ execute:
 
 # Part I 
 ## Summary
-Brian Caffo, PhD is a professor in the Department of Biostatistics with a secondary appointment in the Department of Biomedical Engineering at Johns Hopkins University. 
-He graduated from the University of Florida Department of Statistics in 2001. He has worked in statistical computing, statistical modeling, computational statistics, multivariate and decomposition methods and statistics in neuroimaging and neuroscience. He led teams that won the ADHD 200 prediction competition. He co-directs the SMART statistical group. With other faculty at JHU, he created and co-directs the Coursera Data Science Specialization, a 10 course specialization on statistical data analysis. He co-directs the JHU Data Science Lab, a group dedicated to open educational innovation and data science. He is the former director of the Biostatistics graduate programs and admissions committees. He is currently the co-director of the Johns Hopkins High Performance Computing Exchange super computing service center and past-president of the Bloomberg School of Public Health faculty senate.
+Brian Caffo, PhD is a professor in the Department of Biostatistics
+with a secondary appointment in the Department of Biomedical
+Engineering at Johns Hopkins University.  He graduated from the
+University of Florida Department of Statistics in 2001. He has worked
+in statistical computing, statistical modeling, computational
+statistics, multivariate and decomposition methods and statistics in
+neuroimaging and neuroscience. He led teams that won the ADHD 200
+prediction competition. He co-directs the SMART statistical
+group. With other faculty at JHU, he created and co-directs the
+Coursera Data Science Specialization, a 10 course specialization on
+statistical data analysis. He co-directs the JHU Data Science Lab, a
+group dedicated to open educational innovation and data science. He is
+the former director of the Biostatistics graduate programs and
+admissions committees. He is currently the co-director of the Johns
+Hopkins High Performance Computing Exchange super computing service
+center and past-president of the Bloomberg School of Public Health
+faculty senate.
 
 ## Education and training
 
@@ -38,6 +53,7 @@ import os
 from IPython.display import Image
 import plotly.graph_objects as go
 import plotly.io as pio
+import itertools
 from PIL import Image
 
 ## pio.renderers.default = "plotly_mimetype+notebook"
@@ -57,7 +73,8 @@ width = 600
 ## quarto render cvJupyter.qmd --to pdf
 pd.set_option("display.max_rows", 999)
 #dat = pd.read_csv("publications_01042022_2.csv")
-dat = pd.read_csv("publications_12072022.csv")
+#dat = pd.read_csv("publications_12072022.csv")
+dat = pd.read_csv("publications_01152024.csv")
 
 ## Not sure why these columns changes. 
 ## Here's the ones you need, reset these every year
@@ -110,7 +127,6 @@ fig.show(warn = False)
 | 2010 | Founding member Stat in Imaging ASA Section |
 | 2010-2011 | Secretary Stat in Imaging ASA Section |
 
-I usually try to create a JSM or ENAR session every year. 
 
 ## Editorial activities
 
@@ -145,7 +161,7 @@ I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm able to.
 
 ## Publications
 
-Publications reported in Scopus as of 12/07/2022. My total number of Scopus publications is 228. Below is a plot of total publications by year where each small rectangle is a publication. 
+Publications reported in Scopus as of 1/15/2024. My total number of Scopus publications is 257. Below is a plot of total publications by year where each small rectangle is a publication. 
 
 ```{python}
 ## Create a temporary copy of the dataset and work with that
@@ -168,114 +184,108 @@ fig.update_layout(showlegend=False)
 fig
 ```
 
-Here are journals I publish in the most. Some of my favorite journals that I have published in less are JRSSA (1), JRSSB (2), JRSSC (1), Biometrika (1), IEEE TMI (1), JCGS (3), AJE (2), Brain (2) and Neuroimage Clinical (2).
+
+
+Here are journals I publish in the most. 
 
 ```{python}
 temp = dat['Journal Title'].value_counts().reset_index()
 temp = temp.rename(columns = {"index" : "Title", "Journal Title" : "Count"}).sort_values("Count", ascending =False)
 
-temp.loc[temp['Count'] < 5, 'Title']= 'Other'
+temp['inplot'] = temp['Count'] > 5
 
-labels = temp['Title']
-values = temp['Count']
-
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
-fig.update_traces(textinfo='value')
-
-fig = fig.update_layout({
-    'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'height' : height,
-    'width' : width})
-
-
-fig
-
-```
-
-I have published with 629 coauthors. Here is authors that I have had 10 or over manuscripts with.
-
-```{python}
-import itertools
-
-## Get just the author last names. Have to strip out the initials
-## Also, there's white space at the beginning
-text = [s.split(',') for s in dat['Authors']]
-text = list(itertools.chain(*text))
-text = [s.lstrip() for s in text if s.find('.') < 0]
-
-#pd.set_option('display.max_rows', None)
-authors = pd.DataFrame({'Author' : text}).value_counts().reset_index()#.sort_values("Author")
-authors = authors.rename(columns = {0 : 'Count'})
-authors = authors.loc[authors['Author'] != 'Caffo']
-authors.loc[authors['Count'] < 10, 'Author'] = 'Other'
-## Decided to get rid of those rows
-authors = authors.loc[authors['Author'] != 'Other']
-
-#fig = px.bar(authors, x = "Author", y = "Count")
-
-labels = authors['Author']
-values = authors['Count']
-
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
-fig.update_traces(textinfo='value')
-
-fig = fig.update_layout({
-    'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'height' : height,
-    'width' : width
-    })
+temp = temp.merge(dat, left_on = 'Title', 
+    right_on = 'Journal Title', how = 'left')
+temp = temp[temp['Count'] > 5]
+temp = temp.assign(Count = 1)
 
 
 
-fig
-
-```
-
-Here's a plot of number of authors for each manuscript.
-
-```{python}
-
-## Get a list of lists of last names
-text = [s.split(',') for s in dat['Authors']]
-lname= lambda x: [s.lstrip() for s in x if s.find('.') < 0]
-text = [lname(x) for x in text]
-
-
-position = []
-authorno = []
-for i in range(len(text)):
-    s = text[i]
-    authorno.append(len(s))
-    for j in range(len(s)):
-        if 'Caffo' in s[j]:
-            if (j == 0) :
-                position.append('First')
-            elif (j == len(s) - 1) :
-                position.append('Last')
-            elif (j == 1) :
-                position.append('Second')
-            elif (j == len(s) - 2):
-                position.append('Second to last')
-            else:
-                position.append('Other')
-```
-
-```{python}
-temp = dat
-temp = dat.assign(Position = position, Authorno = authorno, Count = 1)
-
-fig = px.bar(temp, x = 'Authorno', 
+fig = px.bar(temp, x = 'Journal Title', 
                  y = 'Count',
                  color = 'Document Title',
-                 hover_data = ['Publication Year', 
-                               'Document Title', 
-                               'Journal Title', 
-                               'Authors', 
-                                'Position',
-                                'Authorno'])
+                 hover_data = ['Publication Year', 'Document Title', 'Journal Title', 'Authors', 'Citations'])
+fig = fig.update_layout({
+    'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor' : 'rgba(0, 0, 0, 0)'})
+
 fig.update_layout(showlegend=False)
+
+fig.show()
+```
+
+I have published with 793 coauthors (according to Scopus). Here is authors that I have had 7 or over manuscripts with.
+
+```{python}
+## Get just the author last names. Have to strip out the initials
+text = [s.split(';') for s in dat['Authors']]
+text = list(itertools.chain(*text))
+authors = pd.DataFrame({'Author' : text}).value_counts().reset_index()
+authors = authors.rename(columns = {0 : 'Count'})
+authors = authors[authors['Count'] > 7]
+authors = authors[~authors['Author'].str.contains('Caffo')]
+authors = authors['Author']
+
+## Create a dataframe with just the info we need
+authorDF = dat.copy()
+
+## Create a column for every author included
+for author in  authors:
+    authorDF[author] = authorDF['Authors'].str.contains(author)
+
+## Get rid of rows where no author is included
+authorDF = authorDF[authorDF[authors].any(axis=1)]
+
+## Melt the dataframe so that each row is a manuscript and each column is an author
+authorDF = authorDF.melt(id_vars = ['Publication Year', 'Document Title', 'Journal Title', 'Authors', 'Citations'], 
+                         value_vars = authors, 
+                         var_name = 'Author', 
+                         value_name = 'Included')
+
+
+authorDF['Count'] = 1
+
+authorDF = authorDF[authorDF['Included'] == True]
+
+authorDF['Last name'] = [name.split()[0] for name in authorDF['Author']]
+
+authorDF.sort_values(by = ['Last name', 'Publication Year'], inplace = True)
+
+fig = px.bar(authorDF, x = 'Last name', 
+                 y = 'Count',
+                 color = 'Document Title',
+                 hover_data = ['Publication Year', 'Document Title', 'Journal Title', 'Authors', 'Citations'])
+fig = fig.update_layout({
+    'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
+    'paper_bgcolor' : 'rgba(0, 0, 0, 0)'})
+
+fig.update_layout(showlegend=False)
+
+fig.show()
+
+
+```
+
+
+Here's a plot of number of authors for each manuscript by my position. 
+
+```{python}
+## Get a list of lists of last names
+text = [s.split(';') for s in dat['Authors']]
+lname= lambda namelist: [name.split()[0] for name in namelist]
+text = [lname(x) for x in text]
+
+authorno = [len(x) for x in text]
+position = [x.index('Caffo') + 1 for x in text]
+
+positionDF = pd.DataFrame({'# Authors' : authorno, 'Position' : position})
+
+
+fig = px.scatter(positionDF.groupby(['# Authors', 'Position']).size().reset_index(name = 'Count'),
+                 x = '# Authors',
+                 y = 'Position',
+                 color = 'Count',
+                 size = 'Count')
 fig = fig.update_layout({
     'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
     'paper_bgcolor' : 'rgba(0, 0, 0, 0)'})
@@ -283,26 +293,6 @@ fig = fig.update_layout({
 fig.show()
 ```
 
-Here's a plot of my author position where the classification is mutually exclusive searching in the precedence: first, last, second, second to last. (So, middle author in a three author manuscript would be classified as second, not second to last.)
-
-
-```{python}
-Position = temp['Position'].value_counts().reset_index()
-
-labels = Position['index']
-values = Position['Position']
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
-
-fig.update_traces(textinfo='value')
-
-fig = fig.update_layout({
-    'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'paper_bgcolor' : 'rgba(0, 0, 0, 0)',
-    'height' : height,
-    'width' : width})
-
-fig.show()
-```
 
 ```{python}
 text = dat['Document Title'].to_list()
@@ -316,18 +306,6 @@ titles = titles.replace("BASED", "")
 titleFile = open("titleFile.txt", "w")
 titleFile.write(titles)
 titleFile.close()
-
-
-"""
-## For right now, comment this out, since I can't seem to install
-## wordcloud. using old version
-import stylecloud as sc
-sc.gen_stylecloud(file_path = 'titleFile.txt', 
-                  icon_name = 'fas fa-brain',
-                  stopwords = True)
-
-os.rename('stylecloud.png', 'titles.png')
-"""
 ```
 
 Here's a wordcloud of words in the titles (excluding common use words, in the shape of an axial brain slice).
@@ -337,7 +315,12 @@ img = Image.open("titles.png")
 plt.figure(figsize=(5,5));
 plt.xticks([]);
 plt.yticks([]);
-plt.imshow(img, frameon=False);
+plt.imshow(img);
+ax = plt.gca()  # Get the current Axes instance
+ax.spines['top'].set_visible(False)  # Hide the top spine
+ax.spines['right'].set_visible(False)  # Hide the right spine
+ax.spines['bottom'].set_visible(False)  # Hide the bottom spine
+ax.spines['left'].set_visible(False)  # Hide the left spine
 ```
 
 Here's the total citation counts of manuscripts plotted by year of publication.
@@ -525,20 +508,20 @@ fig.show()
 Here's my most frequent grant PIs.
 
 ```{python}
-PI = grants['PI'].value_counts().reset_index()
-PI.loc[PI['PI'] == 1, 'PI'] = 'Other'
 
+grants['Count'] = 1
 
-labels = PI['index']
-values = PI['PI']
-
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
-
-fig.update_traces(textinfo='value')
+fig = px.bar(grants, 
+             x = 'PI', 
+             y = 'Count', 
+             color = 'Title',
+             hover_data = ['Start', 'End', 'Title', 'PI'])
 
 fig = fig.update_layout({
     'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
     'paper_bgcolor' : 'rgba(0, 0, 0, 0)'})
+
+fig.update_layout(showlegend=False)
 
 fig.show()
 ```
@@ -631,67 +614,5 @@ fig.update_layout(showlegend=False)
 #Image(fig.to_image(format="png", width=400, height=200, scale=2))
 ## Interactive
 fig.show()
-```
-
-Here's wordclouds of seminar titles and seminar places.
-
-```{python}
-text = seminars['Talk'].to_list()
-titles = " ".join(text)
-#titles = titles.replace("Using", "")
-
-titleFile = open("seminarTitleFile.txt", "w")
-titleFile.write(titles)
-titleFile.close()
-
-"""
-## once again commenting this out until I can figure it out
-sc.gen_stylecloud(file_path = 'seminarTitleFile.txt', 
-                  icon_name = 'fas fa-brain',
-                  stopwords = True)
-
-os.rename('stylecloud.png', 'seminarTitles.png')
-"""
-```
-
-```{python}
-text = seminars['Where']
-text = text[~text.isna()].to_list()
-titles = " ".join(text)
-titles = titles.replace("Talk", "")
-titles = titles.replace("Given", "")
-titles = titles.replace("talk", "")
-titles = titles.replace("given", "")
-titles = titles.replace("Research", "")
-titles = titles.replace("research", "")
-
-titleFile = open("seminarWhereFile.txt", "w")
-titleFile.write(titles)
-titleFile.close()
-
-
-"""
-sc.gen_stylecloud(file_path = 'seminarWhereFile.txt', 
-                  icon_name = 'fas fa-brain',
-                  stopwords = True)
-
-os.rename('stylecloud.png', 'seminarWhere.png')
-"""
-```
-
-```{python}
-img1 = Image.open("seminarTitles.png")
-img2 = Image.open("seminarWhere.png")
-
-plt.figure(figsize=(10,5));
-plt.subplot(1, 2, 1);
-plt.xticks([]);
-plt.yticks([]);
-plt.imshow(img1, frameon = False);
-
-plt.subplot(1, 2, 2);
-plt.xticks([]);
-plt.yticks([]);
-plt.imshow(img2, frameon = False);
 ```
 

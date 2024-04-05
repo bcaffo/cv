@@ -1,0 +1,22 @@
+Study section, Title, Date
+NIGMS,Sure-First, 3/25/2024
+DNDA, ANIE, 10/26/2023
+ZDA, Workshops on Computational and Analytical Research Methods, 1/30/2023
+ZEY, NEI Clinical Applications, 7/15/2022
+ZEY, Large Scale Epidemiology and Secondary Data Analysis Applications, 10/20/2021
+ZRG1, Healthcare Delivery and Methodologies, 6/27/2018
+ZNS1, NeuroNEXT2, 3/23/2018
+NPAS, Neural Basis of Psychopathology Addictions and Sleep Disorders Study Section, 10/19/2017
+ZMH1, Interventions/Biomarkers Special Emphasis Panel, 2/3/2017
+ZMH1, Research Education Programs (R25), 10/13/2016
+ZMH1, Interventions/Biomarkers, 7/8/2016
+ZRG1, BD2K Open Educational Resources and Courses for Skills Development (R26), 6/26/2015
+ZRG1, Modeling of Social Behavior, 1/29/2015
+ZMH1, ITVC Conflicts, 8/16/2013
+DBD , Developmental Brain Disorders Study Section, 6/27/2012
+ZRG1, Member Conflict: Epidemiology,  9/7/2011
+ITVA, Interventions Committee for Adult Disorders, 10/12/2010
+ITVA, Interventions Committee for Adult Disorders, 2/09/2010
+BMRD, Biostatistical Methods and Research Design Study Section, 02/13/2009
+ZRG1, Quick Trials on Imaging and Image-guided Intervention, 10/31/2008
+

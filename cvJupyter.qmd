@@ -130,15 +130,10 @@ fig.show(warn = False)
 
 
 
-```{python}
-#grant_reviews = pd.read_table("nih_reviews.txt", sep = ",")
-
-```
-
 
 ## Editorial activities
 
-| Year | Activity | 
+| Year | Activity |  
 | :--- | :---     |
 | 2006-2008 | Associate editor Computational Statistics and Data Analysis |
 | 2008-2010 | Associate editor for the Journal of the American Statistical Association |
@@ -148,7 +143,13 @@ fig.show(warn = False)
 | 2016-2016 | Guest associate editor for Frontiers in Neuroscience special issues on Brain Imaging Methods
 | 2021-2021 | Guest associate editor for Frontiers special issue in Explainable Artificial Intelligence in Healthcare and Finance |
 
-I do NIH, EU, NSF ... ad hoc review panels whenever they ask me and I'm  able to. This usually translates to say 3 or so a year. I review manuscripts for journals I like whenever they're relevant to my research expertise and I have done a few conference abstract reviews and chaired sessions for conferences I like.
+Here are my NIH study sections. I do not include internal, NSF or EU study sections, of which I've done a small number.
+
+```{python}
+grant_reviews = pd.read_table("nih_reviews.txt", sep = ",")
+grant_reviews
+```
+
 
 ## Honors and awards
 

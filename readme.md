@@ -3,12 +3,7 @@ This is the CV for Brian Caffo, PhD, a professor at JHU Biostat. [Here's a link 
 Switched to a quarto document 10/19/2022
 
 ## CV todo 
-+ Remove grant mechanisms
-+ Fix typos and make abbreviations consistent
 + Automate to PDF output
-+ Convert to DASH
-+ Improve hover data for exams
-+ Grant PIs is not consistent for subs 
 
 
 

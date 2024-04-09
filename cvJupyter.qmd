@@ -167,7 +167,8 @@ grant_reviews
 | 2014 | Named a Fellow of the American Statistical Association |
 | 2015 | Special Invited Lecturer, European Meeting of Statisticians |
 | 2022 | Adrienne Cupples award; *This annual award recognizes a biostatistician whose academic achievements reflect the contributions to teaching, research, and service exemplified by [Professor L. Adrienne Cupples](https://www.bu.edu/sph/news/articles/2022/l-adrienne-cupples-in-memoriam/)*  
-
+| 2024 | Johns Hopkins Bloomberg School of Public Health AMTRA award |
+ 
 ## Publications
 
 Publications reported in Scopus as of 1/15/2024. My total number of Scopus publications is 257. Below is a plot of total publications by year where each small rectangle is a publication. 
@@ -326,7 +327,7 @@ fig.show()
 # Part II 
 ## Teaching
 ### Advisees
-To the nearest year from matriculation year. Includes advisees and co-advisees.
+To the nearest year from matriculation year. Includes advisees and co-advisees in formal degree programs or postdoctoral fellowships.
 
 ```{python}
 advisees = pd.read_csv("Advisees.txt", sep = "|")
@@ -509,19 +510,26 @@ fig.show()
 Here's a breakdown of grant mechanisms.
 
 ```{python}
-mechanism = grants['Mechanism'].value_counts().reset_index()
+#mechanism = grants['Mechanism'].value_counts().reset_index()
+#labels = mechanism['index']
+#values = mechanism['Mechanism']
+#fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
+
+#fig.update_traces(textinfo='value')
+
+fig = px.bar(grants, 
+             x = 'Mechanism', 
+             y = 'Count', 
+             color = 'Title',
+             hover_data = ['Mechanism', 'Start', 'End', 'Title', 'PI'])
 
 
-labels = mechanism['index']
-values = mechanism['Mechanism']
-
-fig = go.Figure(data=[go.Pie(labels=labels, values=values, hole=.6)])
-
-fig.update_traces(textinfo='value')
 
 fig = fig.update_layout({
     'plot_bgcolor' : 'rgba(0, 0, 0, 0)',
     'paper_bgcolor' : 'rgba(0, 0, 0, 0)'})
+
+fig.update_layout(showlegend=False)
 
 fig.show()
 ```
@@ -551,7 +559,7 @@ fig.show()
 ```
 
 ### Academic service 
-Here's my major service roles by year rounded to the nearest year by the major organizational group that it represents. Also, I serve on ad hoc tenure and promotion committees whenever asked (not that often, maybe once every other year or so).
+Here's my major service roles by year rounded to the nearest year by the major organizational group that it represents. Also, I do the normal other service (promotion comittees etcetera).
 
 ```{python}
 service = pd.read_csv("service.txt", delimiter="|").drop(['Unnamed: 0', 'Unnamed: 5'], axis = 1)

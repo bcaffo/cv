@@ -14,32 +14,32 @@
 |2013|2013|Guest instructor|ICTR training program|JHU|Seminar course|
 |2015|2018|Primary instructor|Advanced Linear Models I and II|JHU|Regular course|
 |2019|2021|Primary instructor|Advanced Data Science for BME|JHU|Regular course|
-|2019|2022|Primary instructor|Introduction to Data Science for BME|JHU|Regular course|
-|2019|2023|Primary instructor|Data Science for Public Health I|JHU|Regular course|
-|2019|2023|Primary instructor|Data Science for Public Health II|JHU|Regular course|
-|2022|2022|Primary instructor|Advanced Data Science for Public Health I|JHU|Regular course|
-|2022|2022|Primary instructor|Advanced Data Science for Public Health II|JHU|Regular course|
+|2019|2024|Primary instructor|Introduction to Data Science for BME|JHU|Regular course|
+|2019|2024|Primary instructor|Data Science for Public Health I|JHU|Regular course|
+|2019|2024|Primary instructor|Data Science for Public Health II|JHU|Regular course|
+|2022|2024|Primary instructor|Advanced Data Science for Public Health I|JHU|Regular course|
+|2022|2024|Primary instructor|Advanced Data Science for Public Health II|JHU|Regular course|
 |2011|2011|Co-instructor|Stat. methods forhigh throughput meas.|ENAR|Short course|
 |2015|2015|Co-organizer|Data Science Hackathon|JHU|Short course|
 |2017|2019|Co-instructor|Quarterly MRICloud and R tutorial series|JHU|Short course|
-|2012|2022|Primary instructor|Mathematical Biostatistics Boot Camp|Coursera|MOOC| 
-|2013|2022|Primary instructor|Mathematical Biostatistics Boot Camp 2|Coursera|MOOC| 
-|2018|2022|Primary instructor|Advanced Linear Models for Data Science 1|Coursera|MOOC|
-|2018|2022|Primary instroctor|Advanced Linear Models for Data Science 2|Coursera|MOOC|
-|2014|2022|Co developer|Data Science Specialization|Coursera|MOOC Specialization|
-|2014|2022|Primary instructor|Statistical Inference|Coursera|MOOC| 
-|2014|2022|Primary instructor|Regression Models|Coursera|MOOC|
-|2014|2022|Primary instructor|Developing Data Products|Coursera|MOOC|
-|2014|2022|Support instructor|Data Scientist's Toolbox|Coursera|MOOC|
-|2014|2022|Support instructor|R programming|Coursera|MOOC|
-|2014|2022|Support instructor|Getting and Cleaning Data|Coursera|MOOC|
-|2014|2022|Support instructor|Exploratory Data Analysis|Coursera|MOOC| 
-|2014|2022|Support instructor|Reproducible Research|Coursera|MOOC|
-|2014|2022|Support instructor|Practical Machine Learning|Coursera|MOOC|
-|2014|2022|Co instructor|Data Science Specialization Capstone|Coursera|MOOC|
-|2018|2022|Co developer|Executive Data Science Specialization|Coursera|MOOC Specialization|
-|2018|2022|Co instructor|A Crash Course in Data Science|Coursera|MOOC|
-|2018|2022|Co instructor|Building a Data Science Team|Coursera|MOOC|
-|2018|2022|Co instructor|Managing Data Analyses|Coursera|MOOC|
-|2018|2022|Co instructor|Data Science in Real Life|Coursera|MOOC|
-|2018|2022|Co instructor|Executive Data Science Specialization Capstone|Coursera|MOOC|
+|2012|2024|Primary instructor|Mathematical Biostatistics Boot Camp|Coursera|MOOC| 
+|2013|2024|Primary instructor|Mathematical Biostatistics Boot Camp 2|Coursera|MOOC| 
+|2018|2024|Primary instructor|Advanced Linear Models for Data Science 1|Coursera|MOOC|
+|2018|2024|Primary instroctor|Advanced Linear Models for Data Science 2|Coursera|MOOC|
+|2014|2024|Co developer|Data Science Specialization|Coursera|MOOC Specialization|
+|2014|2024|Primary instructor|Statistical Inference|Coursera|MOOC| 
+|2014|2024|Primary instructor|Regression Models|Coursera|MOOC|
+|2014|2024|Primary instructor|Developing Data Products|Coursera|MOOC|
+|2014|2024|Support instructor|Data Scientist's Toolbox|Coursera|MOOC|
+|2014|2024|Support instructor|R programming|Coursera|MOOC|
+|2014|2024|Support instructor|Getting and Cleaning Data|Coursera|MOOC|
+|2014|2024|Support instructor|Exploratory Data Analysis|Coursera|MOOC| 
+|2014|2024|Support instructor|Reproducible Research|Coursera|MOOC|
+|2014|2024|Support instructor|Practical Machine Learning|Coursera|MOOC|
+|2014|2024|Co instructor|Data Science Specialization Capstone|Coursera|MOOC|
+|2018|2024|Co developer|Executive Data Science Specialization|Coursera|MOOC Specialization|
+|2018|2024|Co instructor|A Crash Course in Data Science|Coursera|MOOC|
+|2018|2024|Co instructor|Building a Data Science Team|Coursera|MOOC|
+|2018|2024|Co instructor|Managing Data Analyses|Coursera|MOOC|
+|2018|2024|Co instructor|Data Science in Real Life|Coursera|MOOC|
+|2018|2024|Co instructor|Executive Data Science Specialization Capstone|Coursera|MOOC|

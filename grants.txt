@@ -3,10 +3,10 @@ PI|01/01/2002|01/01/2004|JHBSPH|Faculty Innovation Award|Monte Carlo and Markov 
 PI|05/01/2006|04/30/2009|NIH NIBIB|K25 EB003491|A mentored training program in imaging science| 
 PI|09/30/2010|8/31/2014|NIH NIBIB|R01 EB012547|Statistical methods for hierarchical large n large p problems|
 Sub PI|09/01/2011|08/31/2016|NIH NIBIB|P41 EB015909|Resource for quantitative functional MRI, TRD for a P41, PI Pekar, CoPI Caffo, P41 PI Van Zijl|
-PI|03/14/2012|3/14/2014|Amazon AWS|Cloud research grant|Cloud-Based Development of Neuroimaging Software| 
-CoPI|08/27/2012|8/26/2014|JHU BSI||The Center for Quantitative Neuroscience: a core for population neuroanalytics and translational systems neuroscience|
+PI|03/14/2012|03/14/2014|Amazon AWS|Cloud research grant|Cloud-Based Development of Neuroimaging Software| 
+CoPI|08/27/2012|08/26/2014|JHU BSI||The Center for Quantitative Neuroscience: a core for population neuroanalytics and translational systems neuroscience|
 PI|12/01/2014|11/30/2017|NIH|R25 EB020378|Big Data Education for the Masses: MOOCs, Modules and Intelligent Tutoring Systems|
-PI|08/16/2019|8/16/2020|NVIDIA|Hardware grant|GPU Accelerated Statistical Inference|
+PI|08/16/2019|08/16/2020|NVIDIA|Hardware grant|GPU Accelerated Statistical Inference|
 PI|05/07/2021|03/21/2025|NIH NIBIB|R01 EB029977|Statistical methods for structural and functional integration in multi-modal neuroimaging data|
-Sub PI|07/01/21|04/30/26|NIH NIBIB|P41 EB031771|MRI Resource for Physiologic, Metabolic and Anatomic Biomarkers, TRD for P41, PI Mori, CoPIs Caffo,Sulam P41 PI Van Zijl|
+Sub PI|07/01/2021|04/30/2026|NIH NIBIB|P41 EB031771|MRI Resource for Physiologic, Metabolic and Anatomic Biomarkers, TRD for P41, PI Mori, CoPIs Caffo,Sulam P41 PI Van Zijl|
 

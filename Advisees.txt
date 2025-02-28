@@ -31,10 +31,10 @@
 | 2013 | 2011 | Posdoc | Seonjoo Lee | Henry Ford || co-advising with primary advisor Dzung Pham |
 | 2020 | 2017 | Posdoc | Yi Zhao |JHU Biostat | | co-advising with Stewart Mostofsky and Martin Lindquist |  
 | 2020 | 2017 | Posdoc | Heather Shappell |JHU Biostat || co-advising with Jim Pekar and primary advisor Martin Lindquist, started in 2017| 
-| 2024 | 2022 | Postdoc | Bonnie Smith   | JHU Biostat | | |
+| 2025 | 2022 | Postdoc | Bonnie Smith   | JHU Biostat | | |
 | 2024 | 2022 | Postdoc | Babak Moghadas | JHU Biostat | | |
-| 2024 | 2022 | Postdoc | Cindy Zhang    | JHU Oncology Biostat | | Co-advising with Zheyu Wang |
-| 2024 | 2022 | Postdoc | John Koo | Indiana Biostatistics | | Co-advising with Yi Zhao |
+| 2025 | 2022 | Postdoc | Cindy Zhang    | JHU Oncology Biostat | | Co-advising with Zheyu Wang |
+| 2025 | 2022 | Postdoc | John Koo | Indiana Biostatistics | | Co-advising with Yi Zhao |
 | 2022 | 2022 | MPH | Oku Kenji | JHU BSPH | *Title TBD* | |
 | 2023 | 2023 | MSE | Kun Liang | JHU AMS  | Data Augmentation in Medical Images ||
 | 2023 | 2023 | MSE | Chenyu  Xie | JHU AMS | | |
@@ -42,3 +42,9 @@
 | 2023 | 2023 | MSE | Jingyi Hao | JHU AMS | | |
 | 2024 | 2024 | MSE | Jinyu Hu | JHU AMS | | |
 | 2024 | 2024 | MPH | Penelope Dodson | | |
+| 2025 | 2024 | PhD | Alyssa Columbus | JHU Biostat || co-advising with Stephanie Hicks|
+| 2025 | 2024 | PhD | Alessio Pignatelli | JHU Biostat |||
+| 2025 | 2024 | MSE | Xiangyu Zhang | JHU AMS ||
+| 2024 | 2023 | MSE | Wen Zhang | JHU AMS ||
+| 2024 | 2025 | MPH | Shawn Kim | JHU BSPH ||
+| 2024 | 2025 | MPH | Daniel Erhabor | JHU BSPH||
